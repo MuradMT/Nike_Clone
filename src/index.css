@@ -13,6 +13,12 @@
 }
 
 @layer components {
+  .nav-4{
+    @apply font-montserrat leading-normal text-lg text-slate-gray
+  }
+  .nav-last{
+    @apply font-montserrat leading-normal text-lg text-slate-gray font-bold 
+  }
   .max-container {
     max-width: 1440px;
     margin: 0 auto;
