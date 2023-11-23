@@ -19,6 +19,10 @@
   .nav-last{
     @apply font-montserrat leading-normal text-lg text-slate-gray font-bold 
   }
+  .shoe-card{
+    @apply  flex justify-center items-center bg-card bg-center
+    bg-cover sm:w-40 sm:h-40 rounded-xl max-sm:p-4
+  }
   .max-container {
     max-width: 1440px;
     margin: 0 auto;
